@@ -1,0 +1,28 @@
+
+
+message teste
+{
+	required int32 i = 1;
+}
+
+message root2
+{
+	required int32 i = 1;
+
+	message child {
+		required int32 e = 1;
+		optional string msg = 2 [default = "esta eh uma mensagem"] ;
+		message subchild1 {
+			required int32 c = 1;
+			optional string msg = 2 [default = "esta eh uma mensagem"] ;
+		}
+	}
+	message child1 {
+		required int32 c = 1;
+		optional string msg = 2 [default = "esta eh uma mensagem"] ;
+		message subchild2 {
+			required int32 c = 1;
+			optional string msg = 2 [default = "esta eh uma mensagem"] ;
+		}
+	}
+}
