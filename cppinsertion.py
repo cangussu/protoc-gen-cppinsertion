@@ -3,7 +3,6 @@
 # C++ code insertion plugin
 #
 # This plugin can be used to insert code into C++ generated code.
-# The  the documented insertion points  C++ generated code
 #
 #
 # Author: Thiago Cangussu de Castro Gomes <cangussu@gmail.com>
